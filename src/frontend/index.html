@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Bookmarks Viewer</title>
+	</head>
+	<body>
+		<header>
+			<a
+				href="index.html"
+				class="fa-solid fa-bookmark header-button"
+				id="logo"
+			></a>
+			<h1 class="heading">Bookmarks Viewer</h1>
+			<i class="fa-solid fa-bars header-button" id="menu"></i>
+		</header>
+		<main>
+			<div id="search">
+				<form action="" method="get">
+						<input
+							type="search"
+							name="search"
+							placeholder="Search"
+							id="search-input"
+							alt="Search"
+						/>
+						<button
+							class="fa-solid fa-magnifying-glass"
+							type="submit"
+							id="search-submit"
+						></button>
+				</form>
+			</div>
+			<div id="display">
+				<div id="table">
+					<table>
+						<thead>
+							<tr>
+								<th style="width: 2%;">Edit</th>
+								<th style="width: 2%;">URL</th>
+								<th style="width: 2%;">Rating</th>
+								<th style="width: 5%;">Progress</th>
+								<th style="width: 25%;">Title</th>
+								<th style="width: 10%;">Website</th>
+								<th style="width: 10%;">Status</th>
+								<th style="width: 5%;">Plot</th>
+								<th style="width: 5%;">Type</th>
+								<th style="width: 5%;">Notes</th>
+								<th style="width: 15%;">Last Read</th>
+								<th style="width: 10%;">Added</th>
+							</tr>
+						</thead>
+						<tbody id="tbody">
+							<tr id="row-1">
+								<td><a href="http://www.example.com"><button class="fa-solid fa-pen-to-square"><button></a></td>
+								<td><a href="http://www.example.com"><button class="fa-solid fa-share"></button></a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</main>
+		<script src="main.js"></script>
+	</body>
+</html>
